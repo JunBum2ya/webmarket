@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>logout</title>
+	</head>
+	<body>
+		<%
+			session.invalidate();
+			response.sendRedirect("../welcome.jsp");
+		%>
+	</body>
+</html>
